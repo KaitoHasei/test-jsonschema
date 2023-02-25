@@ -1,0 +1,43 @@
+{
+    "type": "VerticalLayout",
+    "elements": [
+        {
+            "type": "HorizontalLayout",
+            "elements": [
+                {
+                    "type": "Control",
+                    "scope": "#/properties/firstname",
+                    "label": "First name"
+                },
+                {
+                    "type": "Control",
+                    "scope": "#/properties/lastname",
+                    "label": "Last name"
+                }
+            ]
+        },
+        {
+            "type": "HorizontalLayout",
+            "elements": [
+                {
+                    "type": "Control",
+                    "scope": "#/properties/phoneNumber",
+                    "label": "Phone number"
+                },
+                {
+                    "type": "Control",
+                    "scope": "#/properties/birthDate",
+                    "label": "Birthdate"
+                }
+            ]
+        },
+        {
+            "type": "Control",
+            "scope": "#/properties/email"
+        },
+        {
+            "type": "Control",
+            "scope": "#/properties/address"
+        }
+    ]
+}
